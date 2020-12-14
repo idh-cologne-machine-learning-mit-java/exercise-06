@@ -6,6 +6,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class TestTree {
+
+	private Tree testTree;
+
 	@BeforeEach
 	public void setup() {
 
@@ -13,7 +16,7 @@ public class TestTree {
 
 	@Test
 	public void testIsLeaf() {
-		assertTrue(true); // <-- this needs to be changed
+		assertTrue(testTree.isLeaf());
 	}
 
 }
