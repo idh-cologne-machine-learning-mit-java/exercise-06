@@ -9,7 +9,7 @@ public class Classifier {
 		return null;
 	};
 
-	public double entropy(Instances instances) {
+	public double entropy(Instances instances){
 		// TODO: implement
 		return 0.0;
 	}
