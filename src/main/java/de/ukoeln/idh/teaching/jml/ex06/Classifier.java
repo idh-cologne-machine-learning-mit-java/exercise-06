@@ -3,6 +3,8 @@ package de.ukoeln.idh.teaching.jml.ex06;
 import weka.core.Instances;
 
 public class Classifier {
+	
+	
 
 	public Tree train(Instances instances) {
 		// TODO: implement
